@@ -1,0 +1,31 @@
+.user .name {
+  font-weight: 600;
+  padding: 8px 0px;
+}
+
+.user .email,
+.user .phone {
+  font-size: 0.9rem;
+  padding: 8px 0px;
+}
+
+.user {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+  padding: 3rem 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

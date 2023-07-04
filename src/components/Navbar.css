@@ -1,0 +1,16 @@
+nav {
+  background-color: #ccd6ebaa;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  gap: 3rem;
+}
+
+nav a.active {
+  color: var(--color-primary-800);
+  font-weight: 700;
+}
